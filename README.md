@@ -27,7 +27,7 @@ Five sub-agents that handle specialized tasks in parallel:
 ```
 Clone the content cleaner skills repo and install them globally in Claude Code:
 
-gh repo clone zachhansen/content-cleaner-skills ~/.claude/skills/content-cleaner-skills
+gh repo clone Zachansen/content-cleaner-skills ~/.claude/skills/content-cleaner-skills
 
 Then add all four skills to my global Claude Code settings by updating ~/.claude/settings.json. Add these paths to the "skills" array:
 
@@ -42,7 +42,7 @@ Verify the install by checking that settings.json was updated correctly.
 ### Option 2: Manual install
 
 ```bash
-gh repo clone zachhansen/content-cleaner-skills ~/.claude/skills/content-cleaner-skills
+gh repo clone Zachansen/content-cleaner-skills ~/.claude/skills/content-cleaner-skills
 ```
 
 Then add the skill paths to your `~/.claude/settings.json`:
